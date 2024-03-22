@@ -16,8 +16,47 @@ h2{
 }
 div {
 background: yellow;
+width: 200px;
+height: 200px;
+padding: 30px 50px;
+border: 15px solid red;
+margin: 50px;
 }
 
 div.test{
     background: #000;
 }   
+
+.box{
+    background: green;
+    color: white;
+    width: 135px;
+    height: 110px;
+    padding: 30px 15px;
+    border: 10px solid black;
+    margin: 40px 25px;
+
+
+}
+
+#area-1{
+color: blueviolet;
+font-size: 30px;
+}
+
+#paragrafo{
+font-size: 50px;
+color: chocolate;
+
+}
+.teste001{
+color: red;
+font-size: 36px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+justify-content: centert;
+
+}
