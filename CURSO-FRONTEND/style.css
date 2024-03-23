@@ -1,0 +1,63 @@
+.parede{
+    background: gray;
+    padding: 30px;
+}
+.texto-parede{
+    color: orange;
+}
+@media  and (max-width : 768px) {
+
+.parede{
+    background-color: yellow;
+    border-radius: 15px
+}
+    .texto-parede{
+        font-size: 18px;
+        font-weight: bold;
+        color: red;
+    
+    }
+}
+
+@media  and (max-width : 400px) {
+
+    .parede{
+        background-color: red;
+        border-radius: 15px
+    }
+        .texto-parede{
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+        
+        }
+    }
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    }
+    .container-parede{
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    border: 1px solid black;
+    position: relative;
+    left: 200px;
+    
+    
+    }
+    
+    .tijolinho{
+    width: 125px;
+    height: 125px;
+    background-color: orange;
+    border: 1px solid black;
+    position: absolute;
+    left: 314px;
+    top: 291px;
+    
+    }
+    
+    
